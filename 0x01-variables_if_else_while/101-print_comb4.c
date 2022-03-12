@@ -23,7 +23,7 @@ int main(void)
 				putchar(num + 48);
 				putchar(den + 48);
 				putchar(last + 48);
-				if (num != 8)
+				if (!(num == 7 && den == 8 && last != 8))
 				{
 					putchar(',');
 					putchar(' ');
