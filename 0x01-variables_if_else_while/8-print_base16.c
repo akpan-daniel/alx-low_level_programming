@@ -10,6 +10,7 @@ int main(void)
 {
 	int num;
 	char el;
+
 	for (num = 48; num < 58; num++)
 		putchar(num);
 	for (el = 'a'; el <= 'f'; el++)
