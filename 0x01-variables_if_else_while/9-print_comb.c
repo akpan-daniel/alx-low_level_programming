@@ -9,8 +9,15 @@
 int main(void)
 {
 	int num;
-	for (num = 48; num < 58; num++)
-		putchar(num);
+	for (num = 0; num < 10; num++)
+	{
+		putchar(num + 48);
+		if (num != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 	return (0);
 }

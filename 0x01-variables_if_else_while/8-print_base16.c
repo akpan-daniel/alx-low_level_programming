@@ -8,10 +8,12 @@
  */
 int main(void)
 {
-for (int num = 48; num < 58; num++)
-	putchar(num);
-for (char el = 'a'; el <= 'f'; el++)
-	putchar(el);
-putchar('\n');
-return (0);
+	int num;
+	char el;
+	for (num = 48; num < 58; num++)
+		putchar(num);
+	for (el = 'a'; el <= 'f'; el++)
+		putchar(el);
+	putchar('\n');
+	return (0);
 }
