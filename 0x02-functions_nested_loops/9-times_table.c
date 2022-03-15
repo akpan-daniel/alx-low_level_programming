@@ -18,10 +18,8 @@ void times_table(void)
 			result = row * col;
 			if (result >= 10)
 			{
-				int first = result / 10;
-				int last = result % 10;
-				_putchar('0' + first);
-				_putchar('0' + last);
+				_putchar('0' + result / 10);
+				_putchar('0' + result % 10);
 			}
 			else
 			{
