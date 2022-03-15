@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * main - Output '_putchar' to console
+ * print_alphabet - Output a-z to console
  * Return: 0
  * author: Akpan Daniel
  */
-int main(void)
+void main(void)
 {
-	char word[8] = "_putchar";
-	int n;
+	char word = 'a';
 
-	for (n = 0; n < 9; n++)
+	while (word <= 'z')
 	{
-		_putchar(word[n]);
+		_putchar(word++);
 	}
 	_putchar('\n');
-	return (0);
 }
