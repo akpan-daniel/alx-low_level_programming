@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Output a-z to console
+ * print_alphabet_x10 - Output a-z 10x to console
  * Return: 0
  * author: Akpan Daniel
  */
