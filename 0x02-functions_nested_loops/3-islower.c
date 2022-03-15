@@ -2,6 +2,7 @@
 
 /**
  * _islower - Check for lowercase letter
+ * @c: character to test
  * Return: 1 if lowercase else 0
  * author: Akpan Daniel
  */
