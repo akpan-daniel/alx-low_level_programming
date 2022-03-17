@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Fizz Buzz Program
@@ -15,34 +15,24 @@ int main(void)
 		{
 			if ((num % 3) == 0)
 			{
-				_putchar('F');
-				_putchar('i');
-				_putchar('z');
-				_putchar('z');
+				printf("Fizz");
 			}
 
 			if ((num % 5) == 0)
 			{
-				_putchar('B');
-				_putchar('u');
-				_putchar('z');
-				_putchar('z');
+				printf("Buzz");
 			}
 		}
 		else
 		{
-			if (num >= 10)
-			{
-				_putchar('0' + (num / 10));
-			}
-			_putchar('0' + (num % 10));
+			printf("%i", num);
 		}
 
 		if (num < 100)
 		{
-			_putchar(' ');
+			printf(" ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
