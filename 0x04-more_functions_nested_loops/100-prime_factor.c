@@ -10,7 +10,6 @@ int main(void)
 {
 	unsigned int long num = 612852475143;
 	unsigned int long prime = (int) sqrt(num);
-	
 
 	for (;;)
 	{
