@@ -5,7 +5,7 @@
  * Return: void
  * author: Akpan Daniel
  */
-void more_numbers(void c)
+void more_numbers(void)
 {
 	int count;
 
