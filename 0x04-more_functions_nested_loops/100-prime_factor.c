@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (num % prime == 0)
 		{
-			printf("%lu \n", num / prime);
+			printf("%lu\n", num / prime);
 			break;
 		}
 		prime--;
