@@ -8,11 +8,13 @@
  */
 void rev_string(char *s)
 {
-	int i, half, count = 0;
+	int i, half, count;
 	char temp;
 
-	while (s[count])
-		count++;
+	for (count = 0; s[count] != '\0'; count++)
+		;
+
+	i = 0;
 
 	half = count / 2;
 
