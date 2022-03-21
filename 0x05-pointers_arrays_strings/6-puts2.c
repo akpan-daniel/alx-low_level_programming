@@ -6,7 +6,7 @@
  * Return: void
  * author: Akpan Daniel
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	char null = '\0';
 	int count;
@@ -18,7 +18,7 @@ void _puts2(char *str)
 			_putchar('\n');
 			break;
 		}
-		if ((count / 2) == 0)
+		if ((count % 2) == 0)
 			_putchar(*(str + count));
 	}
 }
