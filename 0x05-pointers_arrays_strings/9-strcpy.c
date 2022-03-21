@@ -3,7 +3,7 @@
 /**
  * _strcpy - Copy string
  * @src: String to be copied
- * @dest: String 
+ * @dest: String
  * Return: void
  * author: Akpan Daniel
  */
