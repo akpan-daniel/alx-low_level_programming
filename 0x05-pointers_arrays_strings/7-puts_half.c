@@ -14,7 +14,7 @@ void puts_half(char *str)
 		;
 
 	if ((count % 2) == 1)
-		half = (count - 1) / 2;
+		half = (count + 1) / 2;
 	else
 		half = count / 2;
 
