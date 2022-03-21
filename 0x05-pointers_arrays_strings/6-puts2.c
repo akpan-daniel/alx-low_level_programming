@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - Output every other string
+ * puts2 - Output every other string
  * @str: String to print
  * Return: void
  * author: Akpan Daniel
